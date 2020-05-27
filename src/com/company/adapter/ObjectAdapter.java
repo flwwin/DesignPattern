@@ -2,7 +2,7 @@ package com.company.adapter;
 //对象适配器
 public class ObjectAdapter implements Target{
 	private Adaptee adaptee;
-	public ObjectAdapter(){
+	ObjectAdapter(){
 		super();
 		adaptee = new Adaptee();
 	}
